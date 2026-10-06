@@ -1,0 +1,19 @@
+body {
+    background-color: #151937;
+    color: white;
+}
+
+.text-gradient {
+    background-image: linear-gradient(to right, red, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to right, red, pink);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
